@@ -3,6 +3,7 @@
     height: 100dvh;
     background: linear-gradient(#0000007e , #0000007e) , url('/background_banner.jpg');
     padding: 20px 8%;
+    display: grid;
 
 }
 .login-logo
@@ -95,3 +96,17 @@
     color: #e50914 ;
     cursor: pointer ;
 }
+
+@media (max-width : 500px)
+{
+    .login {
+        padding: 15px;
+    }
+    .login-form
+    {
+
+        padding: 20px;
+        margin-top:30px ;
+    }
+}
+
